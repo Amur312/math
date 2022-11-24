@@ -3,10 +3,10 @@
 int main() {
   double i;
   scanf("%lf", &i);
-  s_sqrt(i);
+  sqrt(i);
 }
 
-int s_abc(int x) {
+int abc(int x) {
   if (x < 0)
     x *= -1;
   return x;
@@ -41,7 +41,7 @@ long double pow(double base, double exp) {
 
 long double sin(double x) {}
 
-long double s_sqrt(double x) {
+long double sqrt(double x) {
   double esp = 10e-8;
   long double s = x;
 
